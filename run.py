@@ -1,7 +1,7 @@
 # 创建应用实例
 import sys
 
-# from wxcloudrun import app
+from wxcloudrun import app
 from flask import  request
 import requests
 
