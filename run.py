@@ -1,11 +1,11 @@
 # 创建应用实例
 import sys
 
-from wxcloudrun import app
-from flask import Flask, request
+# from wxcloudrun import app
+from flask import  request
 import requests
 
-
+app = Flask(__name__)
 # 替换为你的小程序 AppID 和 AppSecret
 APPID = 'wx5b6537f52133de0f'
 SECRET = 'a40c0eaacf4e4b9d784ca9e9e2c66b11'
